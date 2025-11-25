@@ -1,169 +1,48 @@
 🚗 Car Rental System — Full Stack Project
+<!-- HEADER CARD --> <div style="padding:20px; border-radius:12px; background:linear-gradient(135deg,#4b79a1,#283e51); color:white; box-shadow:0 4px 12px rgba(0,0,0,0.2);"> <h2>🚘 A Full Stack Car Rental Platform Built with Spring Boot + React.js</h2>
 
-A full-stack Car Rental System developed using Spring Boot (backend) and React.js (frontend) with MySQL as the database.
-The project allows users to browse cars, book rentals, upload license, and manage profiles, while admins can manage companies, variants, bookings, and customers.
+A complete system where users can browse cars, book rentals, upload licenses, and manage profiles — while admins manage companies, variants, bookings & customers.
 
+</div>
 ⭐ Features
-👤 User Features
+<!-- FEATURE GRID --> <div style="display:flex; gap:16px; flex-wrap:wrap;"> <div style="flex:1; min-width:280px; background:#f7f7f7; padding:16px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"> <h3>👤 User Features</h3> <ul> <li>Register & Login</li> <li>Browse Cars</li> <li>View Car Details</li> <li>Book Cars</li> <li>Upload License</li> <li>Booking History</li> <li>Update Profile</li> </ul> </div> <div style="flex:1; min-width:280px; background:#f7f7f7; padding:16px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"> <h3>🛠 Admin Features</h3> <ul> <li>Add Car Companies</li> <li>Add Variants</li> <li>Update/Delete Variants</li> <li>View Customers</li> <li>View All Bookings</li> <li>Manage Prices</li> </ul> </div> </div>
+🖼 UI Screenshots
+<!-- IMAGE CARD --> <div style="background:#ffffff; padding:16px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
 
-Register & Login
+Replace images with your GitHub URLs
 
-Browse available cars
-
-View car details
-
-Book a car for selected dates
-
-Upload a driving license
-
-View booking history
-
-Update profile
-
-🛠️ Admin Features
-
-Add car companies
-
-Add car variants
-
-Update/delete variants
-
-View all customers
-
-View all bookings
-
-Manage rental prices
-
-🖼️ UI Screenshots
-
-(Add images later by replacing the placeholder text)
-
-Home Page
-(Insert image here)
-
-User Login Page
-(Insert image here)
-
-User Registration Page
-(Insert image here)
-
-Booking Summary Page
-(Insert image here)
-
-User Profile Page
-(Insert image here)
-
-Admin Home / Dashboard
-(Insert image here)
-
-All Customers (Admin)
-(Insert image here)
-
-All Bookings (Admin)
-(Insert image here)
-
-Add Variant (Admin)
-(Insert image here)
-
+🏠 Home Page
+<img src="https://via.placeholder.com/900x450?text=Home+Page" style="border-radius:10px;">
+🔐 Login
+<img src="https://via.placeholder.com/900x450?text=Login+Page" style="border-radius:10px;">
+📝 Register
+<img src="https://via.placeholder.com/900x450?text=Register+Page" style="border-radius:10px;">
+📄 Booking Summary
+<img src="https://via.placeholder.com/900x450?text=Booking+Summary" style="border-radius:10px;"> </div>
 🏗 Tech Stack
-Frontend
-
-React.js
-
-Axios
-
-Bootstrap 5
-
-React Router
-
-Backend
-
-Spring Boot
-
-Spring MVC
-
-Spring Data JPA
-
-Hibernate
-
-MySQL
-
-Tools
-
-Spring Tool Suite (STS)
-
-VS Code
-
-MySQL Workbench
-
-Git & GitHub
-
+<!-- TECH STACK BADGES --> <div style="background:#f8f9fa; padding:20px; border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.08);">
+🎨 Frontend
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/Bootstrap%205-purple?style=for-the-badge&logo=bootstrap&logoColor=white">
+⚙ Backend
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-446?style=for-the-badge&logo=mysql&logoColor=white">
+🧰 Tools
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white"> </div>
 📁 Project Structure
-Backend
-src/main/java/com/carrentalsystem/
+Backend/
   controller/
   service/
-  repository/
   model/
-src/main/resources/
-  application.properties
+  repository/
 
-Frontend
-src/
-  BookingComponent/
+Frontend/
   CarComponent/
   UserComponent/
+  BookingComponent/
   NavbarComponent/
-  PageComponent/
-  images/
 
-🧩 API Endpoints (Short)
-Auth
-
-POST /api/auth/login
-
-POST /api/auth/register
-
-User
-
-GET /api/user/variants
-
-POST /api/user/booking/add
-
-Admin
-
-POST /api/admin/company/add
-
-POST /api/admin/variant/add
-
-GET /api/admin/customer/all
-
-GET /api/admin/bookings/all
-
-▶️ How to Run the Project
-Backend (Spring Boot)
-
-Create MySQL database:
-
-car_rental_system
-
-
-Update application.properties with your username + password
-
-Run via:
-
+▶️ How to Run
+Backend
 mvn spring-boot:run
 
-
-Backend runs on:
-
-http://localhost:8080
-
-Frontend (React)
-npm install
+Frontend
 npm start
-
-
-Runs on:
-
-http://localhost:3000

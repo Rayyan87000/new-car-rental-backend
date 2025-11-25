@@ -4,7 +4,7 @@
 <div style="display:flex; gap:16px; flex-wrap:wrap;"> <div style="flex:1; min-width:300px; background:#f7f7f7; padding:16px; border-radius:12px;"> <h3>👤 User Features</h3> <ul> <li>Register & Login</li> <li>Browse Cars</li> <li>View Car Details</li> <li>Book Cars</li> <li>Upload License</li> <li>Booking History</li> <li>Update Profile</li> </ul> </div> <div style="flex:1; min-width:300px; background:#f7f7f7; padding:16px; border-radius:12px;"> <h3>🛠 Admin Features</h3> <ul> <li>Add Car Companies</li> <li>Add Variants</li> <li>Update/Delete Variants</li> <li>View Customers</li> <li>View All Bookings</li> <li>Manage Prices</li> </ul> </div> </div>
 🖼 UI Screenshots
 
-(Images now smaller — clean look)
+(clean look)
 
 🏠 <h2>Home Page</h2>
 <img src="images/Screenshot 2025-11-25 065258.png" width="75%" style="border-radius:10px;">

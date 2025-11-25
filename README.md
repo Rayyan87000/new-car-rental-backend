@@ -27,36 +27,36 @@
 🏗 Tech Stack
 <div style="background:#ffffff; padding:20px; border-radius:12px;"> <h3>🎨 Frontend</h3> <p> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> </p> <h3>⚙ Backend</h3> <p> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"> </p> <h3>🧰 Tools</h3> <p> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/STS%204-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> </p> </div>
 📁 Project Structure
-<!-- STRUCTURE CARD --> <div style="background:#f7f7f7; padding:20px; border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.08);"> <h3>📦 Backend Structure</h3>
 Backend/
- ├── controller/
- ├── service/
- ├── repository/
- ├── model/
- └── resources/
-      └── application.properties
+  controller/
+  service/
+  repository/
+  model/
 
-<h3>🎨 Frontend Structure</h3>
 Frontend/
- ├── CarComponent/
- ├── UserComponent/
- ├── BookingComponent/
- ├── NavbarComponent/
- ├── PageComponent/
- └── images/
+  CarComponent/
+  UserComponent/
+  BookingComponent/
+  NavbarComponent/
+  PageComponent/
+  images/
 
-</div>
-▶️ How to Run the Project (Styled Version)
-<!-- RUN CARD --> <div style="background:#ffffff; padding:20px; border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.08);"> <h2>⚙️ Step-by-Step Setup Guide</h2>
+▶️ How to Run the Project on Your Computer
 ✅ 1. Clone Repositories
 git clone https://github.com/YourUsername/new-car-rental-backend.git
 git clone https://github.com/YourUsername/new-car-rental-frontend.git
 
 ✅ 2. Setup MySQL Database
-<div style="padding-left:10px;"> • Install MySQL & MySQL Workbench • Create the database: </div>
+
+Install MySQL & MySQL Workbench
+
+Create database:
+
 CREATE DATABASE car_rental_system;
 
-<div style="padding-left:10px;"> • Update backend configuration in: <b>src/main/resources/application.properties</b> </div>
+
+Update application.properties:
+
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 
@@ -64,7 +64,8 @@ spring.datasource.password=YOUR_PASSWORD
 mvn spring-boot:run
 
 
-🔗 Backend will run at:
+Backend URL:
+
 http://localhost:8080
 
 ✅ 4. Run Frontend (React)
@@ -72,7 +73,6 @@ npm install
 npm start
 
 
-🔗 Frontend will run at:
-http://localhost:3000
+Frontend URL:
 
-</div>
+http://localhost:3000

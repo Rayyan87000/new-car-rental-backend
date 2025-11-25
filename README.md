@@ -12,9 +12,9 @@ A complete system where users can browse cars, book rentals, upload licenses, an
 Replace images with your GitHub URLs
 
 🏠 Home Page
-<img src="https://via.placeholder.com/900x450?text=Home+Page" style="border-radius:10px;">
+<img src="images/Screenshot 2025-11-25 065258.png" style="border-radius:10px;">
 🔐 Login
-<img src="https://via.placeholder.com/900x450?text=Login+Page" style="border-radius:10px;">
+<img src="images/Screenshot 2025-11-25 065341.png" style="border-radius:10px;">
 📝 Register
 <img src="https://via.placeholder.com/900x450?text=Register+Page" style="border-radius:10px;">
 📄 Booking Summary

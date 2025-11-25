@@ -43,7 +43,9 @@ Frontend/
 
 ▶️ How to Run the Project on Your Computer
 ✅ 1. Clone Repositories
+
 git clone https://github.com/YourUsername/new-car-rental-backend.git
+
 git clone https://github.com/YourUsername/new-car-rental-frontend.git
 
 ✅ 2. Setup MySQL Database

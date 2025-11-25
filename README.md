@@ -4,7 +4,7 @@
 <div style="display:flex; gap:16px; flex-wrap:wrap;"> <div style="flex:1; min-width:300px; background:#f7f7f7; padding:16px; border-radius:12px;"> <h3>👤 User Features</h3> <ul> <li>Register & Login</li> <li>Browse Cars</li> <li>View Car Details</li> <li>Book Cars</li> <li>Upload License</li> <li>Booking History</li> <li>Update Profile</li> </ul> </div> <div style="flex:1; min-width:300px; background:#f7f7f7; padding:16px; border-radius:12px;"> <h3>🛠 Admin Features</h3> <ul> <li>Add Car Companies</li> <li>Add Variants</li> <li>Update/Delete Variants</li> <li>View Customers</li> <li>View All Bookings</li> <li>Manage Prices</li> </ul> </div> </div>
 🖼 UI Screenshots
 
-(clean look)
+(Clean layout + Smaller Image Sizes)
 
 🏠 <h2>Home Page</h2>
 <img src="images/Screenshot 2025-11-25 065258.png" width="75%" style="border-radius:10px;">
@@ -41,10 +41,38 @@ Frontend/
   PageComponent/
   images/
 
-▶️ How to Run
-Backend
+▶️ How to Run the Project on Your Computer
+✅ 1. Clone Repositories
+git clone https://github.com/YourUsername/new-car-rental-backend.git
+git clone https://github.com/YourUsername/new-car-rental-frontend.git
+
+✅ 2. Setup MySQL Database
+
+Install MySQL & MySQL Workbench
+
+Create database:
+
+CREATE DATABASE car_rental_system;
+
+
+Update application.properties:
+
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+
+✅ 3. Run Backend (Spring Boot)
 mvn spring-boot:run
 
-Frontend
+
+Backend URL:
+
+http://localhost:8080
+
+✅ 4. Run Frontend (React)
 npm install
 npm start
+
+
+Frontend URL:
+
+http://localhost:3000
